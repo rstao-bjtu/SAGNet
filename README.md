@@ -9,13 +9,14 @@ pip install -r requirements.txt
 ## Getting the data
 Download dataset from [CNNDetection](https://github.com/peterwang512/CNNDetection).
 
-## Training the model 
+## Training the model
+Download all pretrained weight files from<https://drive.google.com/drive/folders/17-MAyCpMqyn4b_DFP2LekrmIgRovwoix?usp=share_link>.
 ```sh
+cd CNNDetection
 sh ./train5_2_domains_ours.sh
 ```
 
 ## Testing the detector
-Download all pretrained weight files from<https://drive.google.com/drive/folders/17-MAyCpMqyn4b_DFP2LekrmIgRovwoix?usp=share_link>.
 ```sh
 cd CNNDetection
 sh ./test.sh
