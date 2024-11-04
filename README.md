@@ -11,7 +11,7 @@ Download dataset from [CNNDetection](https://github.com/peterwang512/CNNDetectio
 
 ## Training the model 
 ```sh
-sh ./train-detector.sh {GPU-ID} {Grad-Save-Dir}
+sh ./train5_2_domains_ours.sh
 ```
 
 ## Testing the detector
