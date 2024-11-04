@@ -18,11 +18,7 @@ sh ./train5_2_domains_ours.sh
 Download all pretrained weight files from<https://drive.google.com/drive/folders/17-MAyCpMqyn4b_DFP2LekrmIgRovwoix?usp=share_link>.
 ```sh
 cd CNNDetection
-CUDA_VISIBLE_DEVICES=0 python eval_test8gan.py --model_path {Model-Path}  --dataroot {Grad-Test-Path} --batch_size {BS}
-```
-
-```bash
-CUDA_VISIBLE_DEVICES=0 ./eval_test8gan.py --dataroot ./datasets/CNN_synth_testset --pth_dataroot ./checkpoints/xxx.pth
+sh ./test.sh
 ```
 
 ## Acknowledgments
